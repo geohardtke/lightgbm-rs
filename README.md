@@ -61,7 +61,7 @@ Please see the `./examples` for details.
 # Develop
 
 ```
-git clone --recursive https://github.com/vaaaaanquish/lightgbm-rs
+git clone --recursive https://github.com/andreclaudino/lightgbm-rs
 ```
 
 ```
