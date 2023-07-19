@@ -107,7 +107,7 @@ impl Booster {
     pub fn predict(&self, data: Vec<Vec<f64>>) -> Result<Vec<Vec<f64>>> {
         let data_length = data.len();
         let feature_length = data[0].len();
-        let params = CString::new("").unwrap();
+        let params = CString::new("num_threads=1").unwrap();
         let mut out_length: c_longlong = 0;
         let flat_data = data.into_iter().flatten().collect::<Vec<_>>();
 
